@@ -11,3 +11,8 @@ permalink: /Screenshots/
 
 Below are some examples of my own rice that I've modified over the years:
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/netjay/netjay.github.io/master/images/99c05adb-2e1a-41de-a063-ea13fd0262c7.jpg" />
+</p>
+
+

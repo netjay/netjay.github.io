@@ -17,6 +17,11 @@ html {
   font-size: 100%;
 }
 
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
+
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
@@ -83,9 +88,12 @@ ul, ol {
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: none;
 }
 
+li {
+    display: inline;
+}
 ol {
   list-style-type: decimal;
 }

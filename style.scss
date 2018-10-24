@@ -12,12 +12,22 @@
 
 
 @font-face {
-  font-family: 'montecarlo';
-  src:  url('fonts/montecarlofixed12-webfont.woff') format('woff'),
- 	url('fonts/montecarlofixed12-bold-webfont.woff') format('woff'),
-	url('fonts/MonteCarloFixed12-Bold.ttf') format('truetype'), 
-        url('fonts/MonteCarloFixed12.ttf') format('truetype');
-    
+    font-family: 'montecarlo_fixed_12regular';
+    src: url('fonts/montecarlofixed12-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montecarlo_fixed_12bold';
+    src: url('fonts/montecarlofixed12-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /**************/
@@ -35,7 +45,7 @@ sup {
 
 body {
  
-  font-family:  'montecarlo';
+  font-family:  'montecarlo_fixed_12regular' !important;
   background: $white;
   color: $darkGray;
 }
@@ -48,9 +58,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: 'montecarlo_fixed_12bold' !important;
   color: $darkerGray;
-  font-weight: bold;
+  font-weight: normal;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -233,7 +243,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: 'montecarlo';
   font-size: 18px;
 
   @include mobile {

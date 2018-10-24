@@ -24,7 +24,7 @@ sup {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 'montecarlo';
   color: $darkGray;
 }
 
@@ -289,6 +289,10 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+@font-face {
+font-family: "montecarlo";
+src: url("fonts/MonteCarloMedium.ttf");
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

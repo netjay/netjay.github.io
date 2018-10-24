@@ -24,7 +24,7 @@ sup {
 
 body {
 	background: $white;
-  font: 'montecarlo';
+  font: 'MonteCarloMedium';
   color: $darkGray;
 }
 
@@ -291,8 +291,8 @@ footer {
   text-align: center;
 }
 @font-face {
-font-family: "montecarlo";
-src: url("fonts/MonteCarloMedium.ttf");
+font-family: "MonteCarloMedium";
+src: url("fonts/MonteCarloMedium.ttf") format('truetype');
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
